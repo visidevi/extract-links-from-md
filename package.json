@@ -1,0 +1,24 @@
+{
+  "name": "extract-links-from-md",
+  "version": "1.0.0",
+  "description": "Markdown link extractor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/missmakita/extract-links-from-md.git"
+  },
+  "keywords": [
+    "markdown",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "MissMakita, SkyBlue16, Visidevi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/missmakita/extract-links-from-md/issues"
+  },
+  "homepage": "https://github.com/missmakita/extract-links-from-md#readme"
+}

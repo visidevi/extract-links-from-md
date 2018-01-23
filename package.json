@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/visidevi/extract-links-from-md/issues"
   },
-  "homepage": "https://github.com/visidevi/extract-links-from-md#readme"
+  "homepage": "https://github.com/visidevi/extract-links-from-md#readme",
+  "devDependencies": {
+    "ember-cli-materialize": "^0.22.0-beta.0",
+    "jQuery": "^1.7.4",
+    "materialize-css": "^0.100.2"
+  }
 }

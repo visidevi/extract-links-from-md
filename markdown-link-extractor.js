@@ -4,36 +4,34 @@ class Link {
 				
 				this.text = text;
 				this.href = href;
-			}
-		}  
-
-
+			};
+		};  
 
   function extractLinksFromMd() {
 
-      	let markdown = document.getElementById('txtInput').value;
-		
-     
-        document.getElementById("resultado").innerHTML= markdown; 
-        console.log(markdown);
-
-        const re = /(\[(.*?)\])|(https?|ftp):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:/~+#-]*[\w@?^=%&/~+#-])?/gi;
-		let matches = markdown.match(re);
-		console.log(matches);
+	let markdown = document.getElementById('txtInput').value;
 
 
+	document.getElementById("resultado").innerHTML= markdown; 
+	console.log(markdown);
 
-        for ( i = 0; i <matches.length; i++){
+	const re = /(\[(.*?)\])|(https?|ftp):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:/~+#-]*[\w@?^=%&/~+#-])?/gi;
+	let matches = markdown.match(re);
+	console.log(matches);
 
-			let one = new Link(matches[i],matches[i+1])
-			i++
-		    links.push(one);
 
-			}
-			console.log(JSON.stringify(links));
-			document.getElementById("resultado").innerHTML= JSON.stringify(links);
+
+	for ( i = 0; i <matches.length; i++){
+
+		let one = new Link(matches[i],matches[i+1])
+		i++
+	    links.push(one);
+
+		}
+		console.log(JSON.stringify(links));
+		document.getElementById("resultado").innerHTML= JSON.stringify(links);
 		       
-		    };
+	 };
 
 
        

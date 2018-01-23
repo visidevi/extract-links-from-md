@@ -1,10 +1,10 @@
 {
-  "name": "extract-links-from-md",
+  "name": "Markdown-link-extractor",
   "version": "1.0.0",
   "description": "Markdown link extractor",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/missmakita/extract-links-from-md/issues"
   },
-  "homepage": "https://github.com/missmakita/extract-links-from-md#readme"
+  "homepage": "https://missmakita.github.com.io/extract-links-from-md",
+  "devDependencies": {
+    "mocha": "^5.0.0"
+  }
 }

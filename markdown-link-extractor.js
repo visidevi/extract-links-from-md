@@ -1,88 +1,53 @@
+
+//Creamos un objeto Link le pasamos el parametro Text, HREF
 let links = [];
 class Link {
-			constructor(text,href) {
-				
-				this.text = text;
-				this.href = href;
-			};
-		};  
+		constructor(text,href) {
+			
+			this.text = text;
+			this.href = href;
+		};
+	};  
 
-  function extractLinksFromMd() {
+// Agregamos un esuchador al boton eLinks y le decimos que al hacer click 
+//Ejecute la funcion extractLinksFromMd
 
-	let markdown = document.getElementById('txtInput').value;
-
-
-	document.getElementById("resultado").innerHTML= markdown; 
-	console.log(markdown);
-
-	const re = /(\[(.*?)\])|(https?|ftp):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:/~+#-]*[\w@?^=%&/~+#-])?/gi;
-	let matches = markdown.match(re);
-	console.log(matches);
+const eLinks = document.getElementById('eLinks');
+eLinks.addEventListener('click', extractLinksFromMd );
 
 
+//FUNCION!!
 
-	for ( i = 0; i <matches.length; i++){
+function extractLinksFromMd() {
 
-		let one = new Link(matches[i],matches[i+1])
-		i++
-	    links.push(one);
+//OBTENEMOS EL VALOR INGRESADO EN EL IMPUT.
+let markdown = document.getElementById('txtInput').value;
 
-		}
-		console.log(JSON.stringify(links));
-		document.getElementById("resultado").innerHTML= JSON.stringify(links);
-		       
-	 };
+//Crear un test que valide que el texto ingresado es un Str Markdwon!!!!IMPORTANTE 
 
-
-       
-      
-    
-/*    
-
-
-
+//Expresion regular que saca todos lo Href del str ingresado
 
 const re = /(\[(.*?)\])|(https?|ftp):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:/~+#-]*[\w@?^=%&/~+#-])?/gi;
+//Aplicamos la expresion regular al str ingresado
 let matches = markdown.match(re);
+
 console.log(matches);
 
-let links = [];
+//Iteramos  el array resultado matches para sacar el Key el value de el nuevo Link
 
-class Link {
-	constructor(text,href) {
-		
-		this.text = text;
-		this.href = href;
-	}
-}
+for ( i = 0; i <matches.length; i++){
 
-
-  function e(){
-
-   	for ( i = 0; i <matches.length; i++){
-
-
-
-	let one = new Link(matches[i],matches[i+1])
+	let one = new Link(matches[i],matches[i+1]);
 	i++
     links.push(one);
 
 	}
+	
+	
 	console.log(JSON.stringify(links));
-       
-    }; */
+//IMPRIMIMOS EN EL HTML EL RESULTADO ESPERADO.
 
+	document.getElementById("result").innerHTML = (JSON.stringify(links));
+	       
+};
 
-
-
-
-   
-/*
-const reTxt = /\[(.*?)\]/gi;
-let linkText = markdown.match(reTxt);
-
-const urlRegEx = /(https?|ftp):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:/~+#-]*[\w@?^=%&/~+#-])?/gi;
-let url = markdown.match(urlRegEx);
-
-console.log(url);
-console.log(linkText); */

@@ -1,3 +1,16 @@
+Trabajo en grupo 
+
+ ###  -.Crear un objeto predeterminado  que reciba parametros href y txt.
+
+ ###  - Crear un expresion regular que recorra el string markDown ingresado y  extrae todos los links encontrados y agruparlos en una variable
+
+  ###  - Iterar la variable  creada y crear un nuevo objeto remplazando los parametros;
+  
+
+ 
+
+
+
 # Lorem ipsum
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor

@@ -2,16 +2,18 @@
 ![linkin'](https://media.giphy.com/media/l1JoiMJdEp23pjnt6/giphy.gif)
 
 <p align="center">
-  <a href="https://badge.fury.io/js/sweetalert"><img src="https://badge.fury.io/js/sweetalert.svg" alt="npm version" height="18"></a>
-  <a href="https://travis-ci.org/t4t5/sweetalert"><img src="https://travis-ci.org/t4t5/sweetalert.svg" alt="Build status" /><a>
-  <a href="https://www.npmjs.com/package/sweetalert">
-    <img src="https://img.shields.io/npm/dm/sweetalert.svg" />
-  </a>
-  <a href="https://github.com/t4t5/sweetalert/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/t4t5/sweetalert.svg" />
-  </a>
+  <a href="https://badge.fury.io/js/sweetalert"><img src="https://badge.fury.io/js/sweetalert.svg" alt="npm v5.0.0" height="18"></a>
+  
 </p>
+
+## Browser support
+The browser support table is not 100% accurate. The ⛔ means that I didn't test DisplayJS for that browser.
+
+| <img src="https://github.com/alrra/browser-logos/blob/master/src/chrome/chrome_128x128.png?raw=true" width="48px" height="48px" alt="Chrome logo"> | <img src="https://github.com/alrra/browser-logos/blob/master/src/firefox/firefox_128x128.png?raw=true" width="48px" height="48px" alt="Firefox logo"> | 
+|:---:|:---:|
+| 52+ ✅ | 52+ ✅ |
 ***
+
 ***Esta libreria se basa en:***
 
 **Implementar un módulo de Node.js que reciba un string (en formato Markdown) y

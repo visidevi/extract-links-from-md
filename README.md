@@ -1,4 +1,4 @@
-#ExtractLinksFromMd
+# Markdown Link Extractor
 ![linkin'](https://media.giphy.com/media/l1JoiMJdEp23pjnt6/giphy.gif)
 
 <p align="center">
@@ -46,3 +46,6 @@ console.log(links);
 //   { href: 'http://foo.com', text: 'foo' },
 // ]
 ```
+
+## Licencia
+[MIT](LICENSE.txt)

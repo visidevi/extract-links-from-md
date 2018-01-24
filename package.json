@@ -2,7 +2,7 @@
   "name": "Linkin'Markdown",
   "version": "1.0.0",
   "description": "Markdown link extractor",
-  "main": "index.js",
+  "main": "./lib/md-link-extractor.js",
   "scripts": {
     "test": "mocha"
   },
@@ -22,6 +22,8 @@
   },
   "homepage": "https://missmakita.github.com.io/md-links-extractor",
   "devDependencies": {
+    "chai": "^4.1.2",
     "mocha": "^5.0.0"
-  }
+  },
+  "dependencies": {}
 }

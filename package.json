@@ -2,7 +2,7 @@
   "name": "Linkin'Markdown",
   "version": "1.0.0",
   "description": "Markdown link extractor",
-  "main": "./lib/md-link-extractor.js",
+  "main": "index.js",
   "scripts": {
     "test": "mocha"
   },

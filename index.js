@@ -1,9 +1,15 @@
 const fs = require('fs');
+<<<<<<< HEAD
 
 const mdLinkEx = require('./lib/md-link-extractor.js');
+=======
+>>>>>>> upstream/dev
 
-let markdown = fs.readFileSync('./demo/README.md').toString();
+const linkEx = require('./lib/md-link-extractor.js');
 
-let links = mdLinkEx.markdownLinkExtractor(markdown);
+const md = fs.readFileSync('./demo/README.md').toString();
+
+let links = linkEx.markdownLinkExtractor(md);
 
 console.log(links);
+

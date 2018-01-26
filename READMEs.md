@@ -1,5 +1,6 @@
 # Markdown Link Extractor
-![linkin'](https://media.giphy.com/media/l1JoiMJdEp23pjnt6/giphy.gif)
+<img align="center" src="https://media.giphy.com/media/l1JoiMJdEp23pjnt6/giphy.gif">
+
 
 <p align="center">
   <a href="https://badge.fury.io/js/sweetalert"><img src="https://badge.fury.io/js/sweetalert.svg" alt="npm v5.0.0" height="18"></a>

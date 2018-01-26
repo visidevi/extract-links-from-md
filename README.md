@@ -1,10 +1,3 @@
-<<<<<<< HEAD:READMEs.md
-# Markdown Link Extractor
-<img align="center" src="https://media.giphy.com/media/l1JoiMJdEp23pjnt6/giphy.gif">
-
-
-=======
->>>>>>> upstream/dev:README.md
 <p align="center">
 	<img src="./img/logo.gif">
 	</img>
@@ -80,7 +73,7 @@ El resultado se verá así:
 ![Ejemplo HTML](./img/ejemplohtml.png)
 
 ## Autoras
-[Makarena Fernández](https://github.com/missmakita), [Visaka Chávez](https://github.com/visidevi) y [Viviana Marcelo](https://github.com/skyblue16).
+[Makarena Fernández](https://github.com/missmakita), [Visaka Devi](https://github.com/visidevi) y [Viviana Marcelo](https://github.com/skyblue16).
 Estudiantes de [Laboratoria](https://laboratoria.la).
 
 ## Licencia

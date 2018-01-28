@@ -18,7 +18,7 @@
 
 ## Uso
 ### Node.js
-1. Instala **Linkin'Mark** en la carpeta raíz de tu proyecto.
+1. Instala **Linkin' Mark** en la carpeta raíz de tu proyecto.
 2. Modifica la siguiente línea del código base en `index.js`, incorporando la ruta del archivo markdown a procesar:
 
 	```

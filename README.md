@@ -1,10 +1,3 @@
-<<<<<<< HEAD:READMEs.md
-# Markdown Link Extractor
-<img align="center" src="https://media.giphy.com/media/l1JoiMJdEp23pjnt6/giphy.gif">
-
-
-=======
->>>>>>> upstream/dev:README.md
 <p align="center">
 	<img src="./img/logo.gif">
 	</img>
@@ -25,7 +18,7 @@
 
 ## Uso
 ### Node.js
-1. Instala **Linkin'Mark** en la carpeta raíz de tu proyecto.
+1. Instala **Linkin' Mark** en la carpeta raíz de tu proyecto.
 2. Modifica la siguiente línea del código base en `index.js`, incorporando la ruta del archivo markdown a procesar:
 
 	```

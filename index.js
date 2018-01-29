@@ -1,9 +1,4 @@
 const fs = require('fs');
-<<<<<<< HEAD
-
-const mdLinkEx = require('./lib/md-link-extractor.js');
-=======
->>>>>>> upstream/dev
 
 const linkEx = require('./lib/md-link-extractor.js');
 

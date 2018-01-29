@@ -18,7 +18,7 @@
 
 ## Uso
 ### Node.js
-1. Instala **Linkin'Mark** en la carpeta raíz de tu proyecto.
+1. Instala **Linkin' Mark** en la carpeta raíz de tu proyecto.
 2. Modifica la siguiente línea del código base en `index.js`, incorporando la ruta del archivo markdown a procesar:
 
 	```
@@ -73,7 +73,7 @@ El resultado se verá así:
 ![Ejemplo HTML](./img/ejemplohtml.png)
 
 ## Autoras
-[Makarena Fernández](https://github.com/missmakita), [Visaka Chávez](https://github.com/visidevi) y [Viviana Marcelo](https://github.com/skyblue16).
+[Makarena Fernández](https://github.com/missmakita), [Visaka Devi](https://github.com/visidevi) y [Viviana Marcelo](https://github.com/skyblue16).
 Estudiantes de [Laboratoria](https://laboratoria.la).
 
 ## Licencia

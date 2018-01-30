@@ -52,7 +52,7 @@ Por último, para poder visualizar el resultado de la búsqueda, incorpora un el
 	  <h1>Extractor de Links Markdown</h1>
 	  <h3>Ingresa un texto en formato markdown para analizar:</h3>
 	  <textarea id="markdown" cols="100" rows="10"></textarea>
-	  <button id"extract">Extraer Links!</button>
+	  <button id="extract">Extraer Links!</button>
 	  <h3>Resultado:</h3>
 	  <pre>
 	    <code id="result"></code>
@@ -62,15 +62,15 @@ Por último, para poder visualizar el resultado de la búsqueda, incorpora un el
 4. Agrega el script al final del `body` de tu archivo `html`:
 
 	```
-	<script src=".lib/md-link-extractor.js"></script>
+	<script src="./lib/md-link-extractor.js"></script>
 	<script>
-    const extract = document.getElementById('extract');
-    extract.onclick = function myLinks() {
-      let markdown = document.getElementById('markdown').value;
-      document.getElementById('result').innerHTML = markdownLinkExtractor(markdown);
-    };
+      const extract = document.getElementById('extract');
+      extract.onclick = function myLinks() {
+        let markdown = document.getElementById('markdown').value;
+        document.getElementById('result').innerHTML = markdownLinkExtractor(markdown);
+      };
     </script>
-	```
+    ```	
 5. Si decides modificar los nombres de id sugeridas, recuerda verificar que coincidan con el script.
 
 El resultado se verá así:
@@ -78,7 +78,6 @@ El resultado se verá así:
 
 ## Autoras
 [Makarena Fernández](https://github.com/missmakita), [Visaka Devi](https://github.com/visidevi) y [Viviana Marcelo](https://github.com/skyblue16).
-Estudiantes de [Laboratoria](https://laboratoria.la).
 
 ## Licencia
 [MIT](LICENSE.txt)

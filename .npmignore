@@ -1,0 +1,7 @@
+node_modules/
+demo/
+img/
+.eslintrc
+.gitignore
+LICENSE.txt
+README.md

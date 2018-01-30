@@ -7,7 +7,7 @@ describe('markdownLinkExtractor()', () => {
     assert.equal(markdownLinkExtractor('[Google](https://www.google.com)'), '[\n {\n  "text": "Google",\n  "href": "https://www.google.com"\n }\n]');
   });
   it('debería identificar el link "[Emol](http://www.emol.cl)" y devolverlo en un array de objetos', () => {
-    assert.equal(markdownLinkExtractor('[Emol](http://www.emol.com)'), '[\n {\n  "text": "Emol",\n  "href": "http://www.emol.cl"\n }\n]');
+    assert.equal(markdownLinkExtractor('[Emol](http://www.emol.cl)'), '[\n {\n  "text": "Emol",\n  "href": "http://www.emol.cl"\n }\n]');
   });
   it('debería identificar el link "[dolore](https://en.wiktionary.org/wiki/dolore)" y devolverlo en un array de objetos', () => {
     assert.equal(markdownLinkExtractor('[dolore](https://en.wiktionary.org/wiki/dolore)'), '[\n {\n  "text": "dolore",\n  "href": "https://en.wiktionary.org/wiki/dolore"\n }\n]');

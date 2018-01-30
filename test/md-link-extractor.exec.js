@@ -18,7 +18,5 @@ describe('markdownLinkExtractor()', () => {
   it('debería identificar el link "[ftp](ftp://ftp.uma.es)" y devolverlo en un array de objetos)', () => {
     assert.equal(markdownLinkExtractor('[ftp](ftp://ftp.uma.es)'), '[\n {\n  "text": "ftp",\n  "href": "ftp://ftp.uma.es"\n }\n]');
   });
-  it('debería identificar el link "[server](file://server.com)" y devolverlo en un array de objetos)', () => {
-    assert.equal(markdownLinkExtractor('[server](file://server.com)'), '[\n {\n  "text": "server",\n  "href": "file://server.com"\n }\n]');
-  });
+
 });

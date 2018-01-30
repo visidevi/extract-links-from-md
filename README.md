@@ -8,7 +8,8 @@
 <p align="center">
 	<a href="https://badge.fury.io/js/sweetalert"><img src="https://badge.fury.io/js/sweetalert.svg" alt="npm v5.0.0" height="18"></a>
 </p>
-[![Build Status](https://travis-ci.org/missmakita/md-links-extractor.svg?branch=dev)](https://travis-ci.org/missmakita/md-links-extractor)
+
+![Build Status](https://travis-ci.org/missmakita/md-links-extractor.svg?branch=dev)](https://travis-ci.org/missmakita/md-links-extractor)
 
 ## Descripción
 **Linkin' Mark** es un extractor de links desde formato Markdown. Puedes instalarlo como módulo en Node.js o implementarlo en tu página web.

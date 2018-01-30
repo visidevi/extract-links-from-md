@@ -7,9 +7,10 @@
 </p>
 <p align="center">
 	<a href="https://badge.fury.io/js/sweetalert"><img src="https://badge.fury.io/js/sweetalert.svg" alt="npm v5.0.0" height="18"></a>
+	<a href="https://travis-ci.org/missmakita/md-links-extractor"><img src="https://travis-ci.org/missmakita/md-links-extractor.svg?branch=dev"></a>
 </p>
 
-![Build Status](https://travis-ci.org/missmakita/md-links-extractor.svg?branch=dev)](https://travis-ci.org/missmakita/md-links-extractor)
+[![Build Status](https://travis-ci.org/missmakita/md-links-extractor.svg?branch=dev)](https://travis-ci.org/missmakita/md-links-extractor)
 
 ## Descripción
 **Linkin' Mark** es un extractor de links desde formato Markdown. Puedes instalarlo como módulo en Node.js o implementarlo en tu página web.
@@ -76,7 +77,9 @@ Por último, para poder visualizar el resultado de la búsqueda, incorpora un el
 5. Si decides modificar los nombres de id sugeridas, recuerda verificar que coincidan con el script.
 
 El resultado se verá así:
-![Ejemplo HTML](./img/ejemplohtml.png)
+<p align="center">
+  ![Ejemplo HTML](./img/ejemplohtml.png)
+</p>
 
 ## Autoras
 [Makarena Fernández](https://github.com/missmakita), [Visaka Devi](https://github.com/visidevi) y [Viviana Marcelo](https://github.com/skyblue16).

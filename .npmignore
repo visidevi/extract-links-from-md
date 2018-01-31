@@ -1,0 +1,9 @@
+node_modules/
+demo/
+img/
+test/
+.eslintrc
+.gitignore
+.travis.yml
+LICENSE.txt
+README.md

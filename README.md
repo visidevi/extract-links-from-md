@@ -7,6 +7,7 @@
 </p>
 <p align="center">
 	<a href="https://badge.fury.io/js/sweetalert"><img src="https://badge.fury.io/js/sweetalert.svg" alt="npm v5.0.0" height="18"></a>
+	<a href="https://travis-ci.org/missmakita/md-links-extractor"><img src="https://travis-ci.org/missmakita/md-links-extractor.svg?branch=dev"></a>
 </p>
 
 ## Descripción
@@ -36,9 +37,22 @@
 
 4. El resultado será un objeto JSON, conteniendo cada link del archivo markdown seleccionado. Éste quedará guardado en un archivo en la carpeta `./data/mylinks.json`:
 
-	````
-	[{"text":"labore","href":"https://en.wiktionary.org/wiki/labore"},{"text":"dolore","href":"https://en.wiktionary.org/wiki/dolore"},{"text":"foo","href":"http://foo.com"}
-	````
+```
+  [
+    {
+      "text":"labore",
+      "href":"https://en.wiktionary.org/wiki/labore"
+    },
+    {
+      "text":"dolore",
+      "href":"https://en.wiktionary.org/wiki/dolore"
+    },
+    {
+      "text":"foo",
+      "href":"http://foo.com"
+    }
+  ]
+  ```
 
 ### Browser
 La versión para páginas web, requiere sólo de unas cuantas líneas de código. Al efectuar la búsqueda, **Linkin' Mark** devolverá los resultados en un objeto JSON. Para incorporar esta herramienta en tu página, sigue los siguientes pasos:
@@ -74,7 +88,9 @@ Por último, para poder visualizar el resultado de la búsqueda, incorpora un el
 5. Si decides modificar los nombres de id sugeridas, recuerda verificar que coincidan con el script.
 
 El resultado se verá así:
-![Ejemplo HTML](./img/ejemplohtml.png)
+<p align="center">
+  <img src="./img/ejemplohtml.png">
+</p>
 
 ## Autoras
 [Makarena Fernández](https://github.com/missmakita), [Visaka Devi](https://github.com/visidevi) y [Viviana Marcelo](https://github.com/skyblue16).

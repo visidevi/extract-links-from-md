@@ -4,4 +4,4 @@ node_js:
 dist: trusty
 sudo: false
 install:
-    - npm install
+  - npm install

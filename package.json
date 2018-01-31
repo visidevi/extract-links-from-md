@@ -4,7 +4,7 @@
   "description": "A markdown link extractor",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha test --reporter nyan"
   },
   "repository": {
     "type": "git",

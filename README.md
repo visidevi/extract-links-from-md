@@ -37,9 +37,9 @@
 
 4. El resultado será un objeto JSON, conteniendo cada link del archivo markdown seleccionado. Éste quedará guardado en un archivo en la carpeta `./data/mylinks.json`:
 
-	````
-	[
-	  {
+```
+  [
+    {
       "text":"labore",
       "href":"https://en.wiktionary.org/wiki/labore"
     },

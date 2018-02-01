@@ -2,7 +2,7 @@ const fs = require('fs');
 const linkEx = require('./lib/md-link-extractor.js');
 
 // Lee el contenido del archivo markdown y lo transforma en string:
-const md = fs.readFileSync('./demo/README.md').toString();
+const md = fs.readFileSync('./doc/README.md').toString();
 
 // El contenido del archivo markdown es pasado como argumento al módulo extractor de links:
 let links = linkEx.markdownLinkExtractor(md);

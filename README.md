@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
 	<img src="./img/logo.gif">
 	</img>
 </p>
@@ -6,8 +6,9 @@
 	a markdown link extractor
 </p>
 <p align="center">
-	<a href="https://badge.fury.io/js/linkinmark"><img src="https://badge.fury.io/js/linkinmark.svg" alt="npm version" height="18"></a>
+	<a href="https://badge.fury.io/js/linkinmark"><img src="https://badge.fury.io/js/linkinmark.svg" alt="npm version"></a>
 	<a href="https://travis-ci.org/missmakita/md-links-extractor"><img src="https://travis-ci.org/missmakita/md-links-extractor.svg?branch=dev"></a>
+	<a href="https://www.jsdelivr.com/package/npm/linkinmark"><img src="https://data.jsdelivr.com/v1/package/npm/linkinmark/badge?style=rounded" alt=""></a>
 </p>
 
 ## Descripción
@@ -15,9 +16,14 @@
 
 ## Instalación
 ### NPM
-    $ npm install --save linkinmark
+    $ npm install linkinmark --save
+### CDN
+Utiliza el CDN de Linkin' Mark para no añadir peso a tu proyecto. Agrega este `<script>` al final del `<body>` en tu `<hmtl>`:
+
+    <script src="https://cdn.jsdelivr.net/npm/linkinmark@1/lib/md-link-extractor.min.js"></script>
+    
 ### Descarga directa
-1. Descarga [**Linkin' Mark**](http:missmakita.github.io/md-links-extractor).
+1. Descarga [**Linkin' Mark**](https://registry.npmjs.org/linkinmark/-/linkinmark-1.0.0.tgz).
 2. Incorpora la carpeta `lib` conteniendo el archivo `md-link-extractor.js` en  la carpeta raíz de tu proyecto.
 
 ## Uso
@@ -36,8 +42,8 @@
 	```
 
 4. El resultado será un objeto JSON, conteniendo cada link del archivo markdown seleccionado. Éste quedará guardado en un archivo en la carpeta `./data/mylinks.json`:
-
-```
+	
+	```
     [
       {
         "text":"labore",
@@ -52,11 +58,10 @@
         "href":"http://foo.com"
       }
     ]
-  ```
-
+    ```
 ### Browser
 La versión para páginas web, requiere sólo de unas cuantas líneas de código. Al efectuar la búsqueda, **Linkin' Mark** devolverá los resultados en un objeto JSON. Para incorporar esta herramienta en tu página, sigue los siguientes pasos:
-1. Descarga [**Linkin' Mark**](http:missmakita.github.io/md-links-extractor).
+1. Descarga [**Linkin' Mark**](https://registry.npmjs.org/linkinmark/-/linkinmark-1.0.0.tgz) o sigue las instrucciones más arriba para utilizar el CDN en tu html.
 2. Incorpora la carpeta `lib`, conteniendo el archivo `md-link-extractor.js`, en la carpeta raíz de tu proyecto.
 3. Crea un elemento `<input>` o `<textarea>` con `id="markdown"` en tu html. Agrega un botón con el `id="extract"`.
 Por último, para poder visualizar el resultado de la búsqueda, incorpora un elemento `<pre></pre>` y un elemento `<code></code>` con `id="result"` anidado en su interior. Puedes seguir este ejemplo:

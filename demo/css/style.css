@@ -50,9 +50,9 @@ footer.page-footer {
 }
 
 #logo {
-  height: 55px;
+  margin-top: 5px;
 }
-.logoGit{
-  color: white;
-  width: 50px;
-}
+
+.bwr, .imgScript, .imgHtml {
+  opacity: 0;
+} 

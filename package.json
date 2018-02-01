@@ -1,10 +1,11 @@
 {
-  "name": "Linkin'Mark",
-  "version": "1.0.0",
-  "description": "A markdown link extractor",
+  "name": "linkinmark",
+  "version": "1.1.0",
+  "description": "Markdown link extractor for node.js",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test --reporter nyan"
+    "test": "mocha test --reporter nyan",
+    "getlinks": "node index.js"
   },
   "repository": {
     "type": "git",

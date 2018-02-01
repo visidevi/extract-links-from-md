@@ -6,7 +6,7 @@
 	a markdown link extractor
 </p>
 <p align="center">
-	<a href="https://badge.fury.io/js/sweetalert"><img src="https://badge.fury.io/js/sweetalert.svg" alt="npm v5.0.0" height="18"></a>
+	<a href="https://badge.fury.io/js/linkinmark"><img src="https://badge.fury.io/js/linkinmark.svg" alt="npm version" height="18"></a>
 	<a href="https://travis-ci.org/missmakita/md-links-extractor"><img src="https://travis-ci.org/missmakita/md-links-extractor.svg?branch=dev"></a>
 </p>
 
@@ -38,20 +38,20 @@
 4. El resultado será un objeto JSON, conteniendo cada link del archivo markdown seleccionado. Éste quedará guardado en un archivo en la carpeta `./data/mylinks.json`:
 
 ```
-  [
-    {
-      "text":"labore",
-      "href":"https://en.wiktionary.org/wiki/labore"
-    },
-    {
-      "text":"dolore",
-      "href":"https://en.wiktionary.org/wiki/dolore"
-    },
-    {
-      "text":"foo",
-      "href":"http://foo.com"
-    }
-  ]
+    [
+      {
+        "text":"labore",
+        "href":"https://en.wiktionary.org/wiki/labore"
+      },
+      {
+        "text":"dolore",
+        "href":"https://en.wiktionary.org/wiki/dolore"
+      },
+      {
+        "text":"foo",
+        "href":"http://foo.com"
+      }
+    ]
   ```
 
 ### Browser

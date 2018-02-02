@@ -1,6 +1,6 @@
 'use strict';
 const fs = require('fs');
-const linkEx = require('./md-link-extractor.js');
+const linkEx = require('./lib/md-link-extractor.js');
 
 linkinmark = function(file) {
   // Lee el contenido del archivo markdown y lo transforma en string:

@@ -3,6 +3,7 @@ demo/
 img/
 test/
 data/
+doc/
 .eslintrc
 .gitignore
 .travis.yml

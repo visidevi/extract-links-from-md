@@ -38,7 +38,7 @@ Utiliza el CDN de Linkin' Mark para no añadir peso a tu proyecto. Agrega este `
     'use strict';
     const fs = require('fs');
     const linkinmark = require('linkinkmark');
-    linkinmark('./<mi-archivo.md>');
+    linkinmark.extract('./<mi-archivo.md>');
 2. En tu consola, posiciónate en la carpeta raíz de tu proyecto y ejecuta `index.js`:
 	```
 	$ node index.js

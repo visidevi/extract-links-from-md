@@ -2,7 +2,7 @@
 const fs = require('fs');
 const linkEx = require('./lib/md-link-extractor.js');
 
-const linkinmark = function(file) {
+const extract = function(file) {
   // Lee el contenido del archivo markdown y lo transforma en string:
   let md = fs.readFileSync(file).toString();
   
@@ -19,4 +19,4 @@ const linkinmark = function(file) {
     console.log('Tus links han sido guardados en ./data/mylinks.json');
   });
 };
-module.exports.linkinmark = linkinmark;
+module.exports.extract = extract;

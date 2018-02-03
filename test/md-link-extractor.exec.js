@@ -1,4 +1,4 @@
-const mark = require('./lib/md-link-extractor');
+const mark = require('../lib/md-link-extractor');
 
 const { assert } = require('chai');
 

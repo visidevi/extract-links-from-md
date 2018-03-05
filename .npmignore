@@ -1,0 +1,10 @@
+node_modules/
+demo/
+img/
+test/
+data/
+doc/
+.eslintrc
+.gitignore
+.travis.yml
+LICENSE.txt

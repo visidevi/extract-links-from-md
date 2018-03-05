@@ -9,6 +9,8 @@
 	<a href="https://badge.fury.io/js/linkinmark"><img src="https://badge.fury.io/js/linkinmark.svg" alt="npm version"></a>
 	<a href="https://travis-ci.org/missmakita/md-links-extractor"><img src="https://travis-ci.org/missmakita/md-links-extractor.svg?branch=dev"></a>
 	<a href="https://www.jsdelivr.com/package/npm/linkinmark"><img src="https://data.jsdelivr.com/v1/package/npm/linkinmark/badge?style=rounded" alt=""></a>
+	<a href="https://www.npmjs.com/package/linkinmark"><img src="https://img.shields.io/npm/dt/express.svg" alt=""></a>
+	<a href="https://github.com/missmakita/md-links-extractor/blob/master/LICENSE.txt"><img src="https://img.shields.io/github/license/missmakita/md-links-extractor.svg" alt=""></a>
 </p>
 
 ## Descripción

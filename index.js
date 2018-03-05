@@ -19,4 +19,5 @@ const extract = function(file) {
     console.log('Tus links han sido guardados en ./data/mylinks.json');
   });
 };
+
 module.exports.extract = extract;
